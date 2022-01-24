@@ -1,9 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.container {
+    font-family: Montserrat, sans-serif;
+    margin-top: calc(2vh + 2vw);
+    width: calc(30vh + 25vw);
+    }
+
+.header {
+    margin: calc(0.3vh + 0.3vw) 0 0 0;
+    font-size: calc(1.5vh + 1.5vw);
+    text-align: center;
+}
+
+.inputs {
+    margin-top: 3vh;
+    width: calc(30vh + 25vw);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+#input-task {
+    width: calc(25vh + 20vw);
+    height: calc(2vh + 2vw);
+    outline: none;
+    -moz-appearance: none;
+    border: none;
+    border-bottom: #70587c solid calc(0.1vh + 0.1vw);
+    font-size: calc(1.2vh + 1.2vw);
+}
+
+#add-task-button {
+     background-color: #c8b8db;
+     height: calc(1.6vh + 1.6vw);
+     margin-left: calc(0.4vh + 0.4vw);
+     font-size: calc(0.7vh + 0.7vw);
+     padding: calc(0.3vh + 0.1vw) calc(0.5vh + 0.5vw) calc(0.1vh + 0.1vw) calc(0.5vh + 0.5vw);
+     border: none;
+     color: white;
+ }
+
+#task-list {
+    list-style-type: none;
+    margin-top: calc(2vh + 2vw);
+    width: calc(30vh + 25vw);
+}
+
+
+.todo-item {
+    width: calc(30vh + 25vw);
+    font-size: calc(1.1vh + 1.1vw);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2vh 0 2vh 0;
+}
+
+
+.btn-complete {
+    width: calc(1vh + 1vw);
+    height: calc(1vh + 1vw);
+}
+
+.task {
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+
+.delete-btn {
+    margin-left: auto;
+    background: transparent;
+    border: none;
+}
+
+img {
+    width: calc(1.3vh + 1.3vw);
+    height: calc(1.3vh + 1.3vw);
+
+}
 
 input:checked+span {
     text-decoration: line-through;
