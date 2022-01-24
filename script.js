@@ -16,7 +16,7 @@ const createTemplate = (task, index) => {
     <li class="todo-item ${task.completed ? 'checked' : ''}">
         <input onclick="completeTask(${index})" class="btn-complete" type="checkbox" ${task.completed ? 'checked' : ''}>
         <span class="task">${task.description}</span>
-        <button onclick="deleteTask(${index})" class="delete-btn">X</button>
+        <button onclick="deleteTask(${index})" class="delete-btn"><img src="btn-dlt.png"></button>
     </li>
     `
 }
