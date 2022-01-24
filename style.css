@@ -83,6 +83,13 @@ body {
 }
 
 .delete-btn {
+    /*width: calc(1.3vh + 1.3vw);
+    height: calc(1.3vh + 1.3vw);*/
+    /*background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: calc(1vw + 1vh);*/
     margin-left: auto;
     background: transparent;
     border: none;
