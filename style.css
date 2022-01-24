@@ -41,6 +41,7 @@ body {
     outline: none;
     -moz-appearance: none;
     border: none;
+    border-radius: 0;
     border-bottom: #70587c solid calc(0.1vh + 0.1vw);
     font-size: calc(1.2vh + 1.2vw);
 }
