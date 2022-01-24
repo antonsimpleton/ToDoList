@@ -36,7 +36,7 @@ body {
 }
 
 #input-task {
-    width: calc(25vh + 20vw);
+    width: calc(25vh + 19vw);
     height: calc(2vh + 2vw);
     outline: none;
     -moz-appearance: none;
